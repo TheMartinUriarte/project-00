@@ -15,6 +15,7 @@ html {
 
 .Player1 {
 	position: absolute;
+  top: 800px;
 	background-image: url("/Users/MartinUriarte/wdi/wip/project-00/Assets/IMGs/player1.png");
   background-repeat: no-repeat;
   background-size: 100%;
