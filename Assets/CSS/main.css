@@ -1,9 +1,13 @@
+html {
+  background-image: url("/Users/MartinUriarte/wdi/wip/project-00/Assets/IMGs/wdi33wUC_2.png");
+  background-size: auto auto;
+}
+
 .road {
 	position: relative;
-  background-image: url("Assets/IMGs/wdi33wUC_2.png");
-	border: 1px solid black;
-	height: 300px;
-	width: 800px;
+	border: 1px solid yellow;
+	max-width: 1366px;
+	max-height: 768px;
 }
 
 .Player1 {
