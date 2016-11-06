@@ -9,8 +9,8 @@ html {
 	max-height: 768px;
 }
 
-.road{
-
+.road1{
+  border: 2px solid pink;
 }
 
 .Player1 {
@@ -18,7 +18,7 @@ html {
 	background-image: url("/Users/MartinUriarte/wdi/wip/project-00/Assets/IMGs/player1.png");
   background-repeat: no-repeat;
   background-size: 100%;
-	width: 150px;
-	Height: 240px;
-	border: 1px solid red;
+	width: 50px;
+	Height: 90px;
+  margin-left: 92px;
 }
