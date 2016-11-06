@@ -1,11 +1,10 @@
 html {
   background-image: url("/Users/MartinUriarte/wdi/wip/project-00/Assets/IMGs/wdi33wUC_2.png");
-  background-size: auto auto;
 }
 
 .road {
 	position: relative;
-	border: 1px solid yellow;
+	border: 2px solid yellow;
 	max-width: 1366px;
 	max-height: 768px;
 }
