@@ -9,10 +9,16 @@ html {
 	max-height: 768px;
 }
 
+.road{
+
+}
+
 .Player1 {
 	position: absolute;
-	background-image: url("Assets/IMGs/player1.png") no-repeat;
-	width: 109px;
-	Height: 154px;
+	background-image: url("/Users/MartinUriarte/wdi/wip/project-00/Assets/IMGs/player1.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+	width: 150px;
+	Height: 240px;
 	border: 1px solid red;
 }
