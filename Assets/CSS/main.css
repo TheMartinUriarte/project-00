@@ -1,14 +1,14 @@
-#map {
+.road {
 	position: relative;
-  backgroud: url(Assets/IMGs/wdi33wUC_2.png);
+  background-image: url("Assets/IMGs/wdi33wUC_2.png");
 	border: 1px solid black;
 	height: 300px;
 	width: 800px;
 }
 
-#Player1 {
+.Player1 {
 	position: absolute;
-	background: url(Assets/IMGs/player1.png) no-repeat;
+	background-image: url("Assets/IMGs/player1.png") no-repeat;
 	width: 109px;
 	Height: 154px;
 	border: 1px solid red;
