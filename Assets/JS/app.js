@@ -25,6 +25,8 @@ $(function() {
 	if (playerOneWinner <= 580) {
 } else {
    alert("Player 1 wins!!");
+	 playerOneWinner = 0;
+	 return;
 }
 });
 });
@@ -42,7 +44,15 @@ $(function() {
 
     case 38:
       $(".Player2").css('top', position.top - 7 + 'px');
+			playerTwoWinner = playerTwoWinner+5;
   }
+
+	if (playerTwoWinner <= 580) {
+} else {
+	 alert("Player 2 wins!!");
+	 playerTwoWinner = 0;
+	 return;
+}
 });
 });
 //Keycodes for game - W: 87, A: 65, S: 83, D: 68, Up: 38, Left: 37, Down: 40, Right: 39.
