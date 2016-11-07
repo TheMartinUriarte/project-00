@@ -2,15 +2,17 @@ html {
   background-image: url("/Users/MartinUriarte/wdi/wip/project-00/Assets/IMGs/wdi33wUC_2.png");
 }
 
+body {
+  background-color: rgb(43,48,44);
+}
+
 .road {
 	position: relative;
-	/*border: 2px solid yellow;*/
 	max-width: 1366px;
 	max-height: 768px;
 }
 
 .road1{
-  /*border: 2px solid pink;*/
 }
 
 .Player1 {
@@ -33,4 +35,9 @@ html {
 	width: 50px;
 	Height: 90px;
   margin-left: 92px;
+}
+
+.winnerScroll {
+background-color: rgb(43,48,44);
+color: white;
 }

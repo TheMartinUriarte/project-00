@@ -24,9 +24,11 @@ $(function() {
 
 	if (playerOneWinner <= 580) {
 } else {
-   alert("Player 1 wins!!");
-	 playerOneWinner = 0;
-	 return;
+	var winScroll = '<marquee behavior="scroll" direction="left" scrollamount="15" class="banner"><h2>Developer 1 Saves The Day!</h2></marquee>';
+	$(".winnerScroll").append(winScroll);
+	playerOneWinner = 0;
+	playerTwoWinner = -580;
+	return;
 }
 });
 });
@@ -49,8 +51,10 @@ $(function() {
 
 	if (playerTwoWinner <= 580) {
 } else {
-	 alert("Player 2 wins!!");
+	 var winScroll = '<marquee behavior="scroll" direction="left" scrollamount="15" class="banner"><h2>Developer 2 Saves The Day!</h2></marquee>';
+	 $(".winnerScroll").append(winScroll);
 	 playerTwoWinner = 0;
+	 playerOneWinner = -500;
 	 return;
 }
 });
