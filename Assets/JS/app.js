@@ -17,17 +17,15 @@ $(function() {
 
   switch (e.keyCode)
   {
-
     case 87:
       $(".Player1").css('top', position.top - 7 + 'px');
       playerOneWinner = playerOneWinner+5;
-      {
-        if(playerOneWinner = 100000){
-          alert("Player One Wins!!");
-        }
-      }
-
   }
+
+	if (playerOneWinner <= 580) {
+} else {
+   alert("Player 1 wins!!");
+}
 });
 });
 
@@ -47,5 +45,4 @@ $(function() {
   }
 });
 });
-
 //Keycodes for game - W: 87, A: 65, S: 83, D: 68, Up: 38, Left: 37, Down: 40, Right: 39.
