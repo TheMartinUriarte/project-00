@@ -4,19 +4,30 @@ html {
 
 .road {
 	position: relative;
-	border: 2px solid yellow;
+	/*border: 2px solid yellow;*/
 	max-width: 1366px;
 	max-height: 768px;
 }
 
 .road1{
-  border: 2px solid pink;
+  /*border: 2px solid pink;*/
 }
 
 .Player1 {
 	position: absolute;
   top: 800px;
 	background-image: url("/Users/MartinUriarte/wdi/wip/project-00/Assets/IMGs/player1.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+	width: 50px;
+	Height: 90px;
+  margin-left: 92px;
+}
+
+.Player2 {
+	position: absolute;
+  top: 800px;
+	background-image: url("/Users/MartinUriarte/wdi/wip/project-00/Assets/IMGs/player2.png");
   background-repeat: no-repeat;
   background-size: 100%;
 	width: 50px;

@@ -4,6 +4,9 @@ $(document).ready(function() {
 
 });
 
+var playerOneWinner = 0;
+var playerTwoWinner = 0;
+
 $(function() {
   var p1 = '<div class="Player1"></div>';
   $(".road1").append(p1);
@@ -17,6 +20,30 @@ $(function() {
 
     case 87:
       $(".Player1").css('top', position.top - 7 + 'px');
+      playerOneWinner = playerOneWinner+5;
+      {
+        if(playerOneWinner = 100000){
+          alert("Player One Wins!!");
+        }
+      }
+
+  }
+});
+});
+
+$(function() {
+  var p1 = '<div class="Player2"></div>';
+  $(".road2").append(p1);
+
+  $(document).keydown(function(e) {
+
+  var position = $(".Player2").position();
+
+  switch (e.keyCode)
+  {
+
+    case 38:
+      $(".Player2").css('top', position.top - 7 + 'px');
   }
 });
 });
